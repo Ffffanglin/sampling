@@ -40,26 +40,28 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+
+Identify the reasons behind high turnover among entry and lower level positions at our tech company and to gather employee feedback on job satisfaction, workplace conditions, and retention factors. The results will inform HR strategies to improve employee satisfaction and reduce turnover.
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+
+- Target population: All current entry and lowerlevel employees at the company.
+- Sampling frame: A list of email addresses of all employees obtained from the HR database.
+- Sampling units: Individual employees listed in the company HR records.
+- Observational units: Responses provided by individual employees who complete the survey.
+- Overall sampling strategy: We will use simple random sampling to invite a representative subset from the frame to participate, ensuring confidentiality to encourage honest responses.
 
 Your 5-10 question survey:
-```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
+
+1. What is your current job title or role?
+2. How long have you worked at the company?
+3. How would you rate your overall job satisfaction? (Very dissatisfied, Somewhat dissatisfied, Neutral, Somewhat satisfied, Very satisfied)
+4. Do you feel supported by your manager in your role?
+5. What is your primary reason for considering not leaving the company?
+6. What is your primary reason for considering leaving the company?
 7. write your question here... (optional)
 8. write your question here... (optional)
 9. write your question here... (optional)
@@ -69,10 +71,19 @@ Your 5-10 question survey:
 ## Part B - Survey Evaluation:
 
 Identify and describe survey features:
-
-```
-write your answer here
-```
+1. Sample type: The survey uses a probability-based, cross-sectional household sample representative of the non-institutionalized Canadian population aged 15+ living in private households in the 10 provinces.
+2. Sample size: While the exact official sample size is not published directly in the documentation summary, related Statistics Canada analysis based on the survey indicates about 16, 149 respondents aged 15+ in 2018.
+3. Target population: Persons aged 15 years and older living in private households in the 10 Canadian provinces (excluding full-time institutional residents).
+4. Sampling frame: A list of households across the ten provinces extracted from administrative data and stratified by region and other characteristics to ensure representativeness. Respondents were randomly selected from sampled households.
+5. Survey mode(s): Data were collected using electronic questionnaires (online) and Computer-Assisted Telephone Interviewing (CATI).
+6. Timeline: Field collection occurred September 4 to December 28, 2018.
+7. Response rate: A precise overall response rate is not listed on the core documentation page; however, similar GSS cycles from this program historically have response rates around the low-to-mid 40 % range.
+8. Weights: Survey data are weighted to reflect Canadian population totals so that results are representative of the 15+ population; weighting adjusts for differential non-response and sampling design. 
+9. Data processing: Data are compiled into a Public Use Microdata File (PUMF) with documentation provided for users to load and analyze; processing includes coding, editing, and ensuring confidentiality. 
+10. Cleaning, imputation, etc.: Standard Statistics Canada procedures are applied, including edit checks for missing or inconsistent responses; some variables may be imputed or adjusted based on auxiliary information following established methodology.
+11. Sources of error: Potential sources include sampling error (estimates vary by stratum and sample size) and non-response or measurement errors from respondent recall or misunderstanding. Online mode changes may also introduce mode effects. 
+12. Limitations, known biases, etc.: The 2018 cycle introduced an internet response option for the first time, which may affect comparability with previous cycles; some subgroups with small sample sizes may have high variability and be less reliable.
+13. Link to documentation and additional sources used: General Social Survey (Cycle 33) documentation and user guide (PUMF): https://www150.statcan.gc.ca/n1/en/catalogue/45250011; Survey metadata (IMDB & methodology): https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234.
 
 ## Rubric
 
